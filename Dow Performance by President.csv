@@ -1,0 +1,23 @@
+President,Affliliation,Begin Date,Begin DOW,End Date,End DOW,Amount Change,Percent Change
+William McKinley,Republican,"March 4, 1897",41.34,"September 14, 1901",67.25,25.91,62.68%
+Theodore Roosevelt,Republican,"September 14, 1901",67.25,"March 4, 1909",81.79,14.54,21.62%
+William Taft,Republican,"March 4, 1909",81.79,"March 4, 1913",80.71,-1.08,-1.32%
+Woodrow Wilson,Democrat,"March 4, 1913",80.71,"March 4, 1921",75.11,-5.6,-6.94%
+Warren Harding,Republican,"March 4, 1921",75.11,"August 2, 1923",88.2,13.09,17.43%
+Calvin Coolidge,Republican,"August 2, 1923",88.2,"March 4, 1929",313.86,225.66,255.85%
+Herbert Hoover,Republican,"March 4, 1929",313.86,"March 4, 1933",53.84,-260.02,-82.85%
+Franklin Roosevelt,Democrat,"March 4, 1933",53.84,"April 12,1945",158.48,104.64,194.35%
+Harry Truman,Democrat,"April 12,1945",158.48,"January 20,1953",288,129.52,81.73%
+Dwight Eisenhower,Republican,"January 20,1953",288,"January 20, 1961",634.37,346.37,120.27%
+John Kennedy,Democrat,"January 20, 1961",634.37,"Nov 22, 1963",711.49,77.12,12.16%
+Lyndon Johnson,Democrat,"November 22, 1963",711.49,"Jan 20, 1969",931.25,219.76,30.89%
+Richard Nixon,Republican,"January 20,1969",931.25,"Aug 9, 1974",777.30,-153.95,-16.53%
+Gerald Ford,Republican,"August 9, 1974",777.30,"Jan 20, 1977",959.03,181.73,23.38%
+Jimmy Carter,Democrat,"January 20,1977",959.03,"Jan 20, 1981",950.67,-8.36,-0.87%
+Ronald Reagan,Republican,"January 20, 1981",950.67,"Jan 20, 1989","2,236.61",1285.94,135.27%
+George HW Bush,Republican,"January 20, 1989","2,236.61","Jan 20, 1993","3,256.00","1,019.39",45.58%
+Bill Clinton,Democrat,"January 20, 1993","3,256.00","Jan 20, 2001","10,686.00","7,430.00",228.19%
+George W Bush,Republican,"January 20, 2001","10,686.00","Jan 20, 2009","8,279.63","-2,406.37",-22.52%
+Barack Obama,Democrat,"January 20, 2009","8,279.63","Jan 20, 2017","19,795.06","11,515.43",139.08%
+Donald Trump,Republican,"January 20, 2017","19,795.06","Jan 20, 2021",31188.38,11393.32,57.56%
+Joe Biden ,Democrat,"January 20, 2021",31188.38,"Jul 26, 2022",31773.67,585.29,1.88%
