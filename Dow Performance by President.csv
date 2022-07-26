@@ -1,23 +1,23 @@
 President,Affliliation,Begin Date,Begin DOW,End Date,End DOW,Amount Change,Percent Change
-William McKinley,Republican,"March 4, 1897",41.34,"September 14, 1901",67.25,25.91,62.68%
-Theodore Roosevelt,Republican,"September 14, 1901",67.25,"March 4, 1909",81.79,14.54,21.62%
-William Taft,Republican,"March 4, 1909",81.79,"March 4, 1913",80.71,-1.08,-1.32%
-Woodrow Wilson,Democrat,"March 4, 1913",80.71,"March 4, 1921",75.11,-5.6,-6.94%
-Warren Harding,Republican,"March 4, 1921",75.11,"August 2, 1923",88.2,13.09,17.43%
-Calvin Coolidge,Republican,"August 2, 1923",88.2,"March 4, 1929",313.86,225.66,255.85%
-Herbert Hoover,Republican,"March 4, 1929",313.86,"March 4, 1933",53.84,-260.02,-82.85%
-Franklin Roosevelt,Democrat,"March 4, 1933",53.84,"April 12,1945",158.48,104.64,194.35%
-Harry Truman,Democrat,"April 12,1945",158.48,"January 20,1953",288,129.52,81.73%
-Dwight Eisenhower,Republican,"January 20,1953",288,"January 20, 1961",634.37,346.37,120.27%
-John Kennedy,Democrat,"January 20, 1961",634.37,"Nov 22, 1963",711.49,77.12,12.16%
-Lyndon Johnson,Democrat,"November 22, 1963",711.49,"Jan 20, 1969",931.25,219.76,30.89%
-Richard Nixon,Republican,"January 20,1969",931.25,"Aug 9, 1974",777.30,-153.95,-16.53%
-Gerald Ford,Republican,"August 9, 1974",777.30,"Jan 20, 1977",959.03,181.73,23.38%
-Jimmy Carter,Democrat,"January 20,1977",959.03,"Jan 20, 1981",950.67,-8.36,-0.87%
-Ronald Reagan,Republican,"January 20, 1981",950.67,"Jan 20, 1989","2,236.61",1285.94,135.27%
-George HW Bush,Republican,"January 20, 1989","2,236.61","Jan 20, 1993","3,256.00","1,019.39",45.58%
-Bill Clinton,Democrat,"January 20, 1993","3,256.00","Jan 20, 2001","10,686.00","7,430.00",228.19%
-George W Bush,Republican,"January 20, 2001","10,686.00","Jan 20, 2009","8,279.63","-2,406.37",-22.52%
-Barack Obama,Democrat,"January 20, 2009","8,279.63","Jan 20, 2017","19,795.06","11,515.43",139.08%
-Donald Trump,Republican,"January 20, 2017","19,795.06","Jan 20, 2021",31188.38,11393.32,57.56%
-Joe Biden ,Democrat,"January 20, 2021",31188.38,"Jul 26, 2022",31773.67,585.29,1.88%
+William McKinley,Republican,1897-03-04,41.34,1901-09-14,67.25,25.91,0.63
+Theodore Roosevelt,Republican,1901-09-14,67.25,1909-03-04,81.79,14.54,0.22
+William Taft,Republican,1909-03-04,81.79,1913-03-04,80.71,-1.08,-0.01
+Woodrow Wilson,Democrat,1913-03-04,80.71,1921-03-04,75.11,-5.6,-0.07
+Warren Harding,Republican,1921-03-04,75.11,1923-08-02,88.2,13.09,0.17
+Calvin Coolidge,Republican,1923-08-02,88.2,1929-03-04,313.86,225.66,2.56
+Herbert Hoover,Republican,1929-03-04,313.86,1933-03-04,53.84,-260.02,-0.83
+Franklin Roosevelt,Democrat,1933-03-04,53.84,1945-04-12,158.48,104.64,1.94
+Harry Truman,Democrat,1945-04-12,158.48,1953-01-20,288,129.52,0.82
+Dwight Eisenhower,Republican,1953-01-20,288,1961-01-20,634.37,346.37,1.20
+John Kennedy,Democrat,1961-01-20,634.37,1963-11-22,711.49,77.12,0.12
+Lyndon Johnson,Democrat,1963-11-22,711.49,1969-01-20,931.25,219.76,0.31
+Richard Nixon,Republican,1969-01-20,931.25,1974-08-09,777.30,-153.95,-0.17
+Gerald Ford,Republican,1974-08-09,777.30,1977-01-20,959.03,181.73,0.23
+Jimmy Carter,Democrat,1977-01-20,959.03,1981-01-20,950.67,-8.36,-0.01
+Ronald Reagan,Republican,1981-01-20,950.67,1989-01-20,"2,236.61",1285.94,1.35
+George HW Bush,Republican,1989-01-20,"2,236.61",1993-01-20,"3,256.00","1,019.39",0.46
+Bill Clinton,Democrat,1993-01-20,"3,256.00",2001-01-20,"10,686.00","7,430.00",2.28
+George W Bush,Republican,2001-01-20,"10,686.00",2009-01-20,"8,279.63","-2,406.37",-0.23
+Barack Obama,Democrat,2009-01-20,"8,279.63",2017-01-20,"19,795.06","11,515.43",1.39
+Donald Trump,Republican,2017-01-20,"19,795.06",2021-01-20,31188.38,11393.32,0.58
+Joe Biden ,Democrat,2021-01-20,31188.38,2022-07-26,31773.67,585.29,0.02
