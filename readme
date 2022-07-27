@@ -1,5 +1,7 @@
 I was intrigued by the question of which presidents had turned in the best (or worst) stock market performance. The Dow Jones Industrial index was first calculated on May 26, 1986, making it the second oldest stock market index (the Dow Jones Transportation index is the oldest). Although one could argue that there are many problems with the way the Dow is calculated, it's the best proxy could find with a verfiable history.
 
+This table was manually compiled using historical data for the Dow Jones Industrials index Yahoo Finance and the Wikipedia List of Presidents of the United States (https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States)
+
 In cases where a president served two or more consecutive terms, their entire time in office is represented by one row in the dataset. If a president was removed from office prior to the end of their term, their end date (along with the begin date of their successor) reflects the actual date of removal.
 
 For the current president, the end date is the last date that the dataset was updated.
