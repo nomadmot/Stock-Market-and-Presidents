@@ -5,3 +5,7 @@ This table was manually compiled using historical data for the Dow Jones Industr
 In cases where a president served two or more consecutive terms, their entire time in office is represented by one row in the dataset. If a president was removed from office prior to the end of their term, their end date (along with the begin date of their successor) reflects the actual date of removal.
 
 For the current president, the end date is the last date that the dataset was updated.
+
+The .csv file is published in kaggle.com at: https://www.kaggle.com/datasets/thomasdamon/dow-jones-performant-by-president
+
+A notebook exploring various visualizations of the data is at: https://www.kaggle.com/code/thomasdamon/an-exploration-of-matplotlib-vs-plotly
