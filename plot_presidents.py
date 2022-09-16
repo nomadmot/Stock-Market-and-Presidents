@@ -60,11 +60,10 @@ def add_chart_presidents(fig: go.Figure):
         width = .6))
 
      # now that everything is built according to date, it's time to switch the y-axis values over to the president's names
-    fig.data[0].y = data["President"]
-    fig.data[1].y = data["President"]
+    fig.data[-1].y = fig.data[-2].y = data["President"]
 
     # create a custom hover message
-    fig.data[0].hovertemplate = fig.data[1].hovertemplate = "%{label}<br>Percent Change: %{value}"
+    fig.data[-1].hovertemplate = fig.data[-2].hovertemplate = "%{label}<br>Percent Change: %{value}%"
 
 def add_chart_market(fig: go.Figure):
     # add a line+markers scatter trace showing the Dow Jones value by president
@@ -72,6 +71,7 @@ def add_chart_market(fig: go.Figure):
     go.Scatter(
         y = data["Begin Date"],
         x = data["End DOW"],
+        customdata = data["Begin DOW"],
         xaxis = 'x2',
         mode = 'lines+markers',
         line_color = 'rgb(0, 128, 0)',
@@ -79,10 +79,10 @@ def add_chart_market(fig: go.Figure):
         orientation = 'h'))
 
     # now that everything is built according to date, it's time to switch the y-axis values over to the president's names
-    fig.data[2].y = data["President"]
+    fig.data[-1].y = data["President"]
 
     # create a custom hover message
-    fig.data[2].hovertemplate = "%{y}<br>Begin Value: %{customdata}<br>End Value: %{x}"
+    fig.data[-1].hovertemplate = "%{y}<br>Begin Value: %{customdata:.2f}<br>End Value: %{x:.2f}"
 
 
 if __name__ == "__main__":
