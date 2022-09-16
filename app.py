@@ -1,12 +1,13 @@
 import streamlit as st
-from helper import market_data
-from mainplot import mainplot
+import plot_presidents as pp
 
 # initialize the w2eb page
 st.title("Dow Performance by President")
 st.subheader("Explore the Dow Jones Industrial performance by President since 1897")
 
-# get the data
-data = market_data()
+# create the basic chart
+fig = pp.create_figure()
+pp.add_chart_presidents(fig)
+pp.add_chart_market(fig)
 
-st.pyplot(mainplot(data))
+st.plotly_chart(fig)
