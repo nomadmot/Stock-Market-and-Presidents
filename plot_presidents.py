@@ -1,9 +1,9 @@
-import helper
 import plotly.graph_objects as go
 from plotly.graph_objs.layout import XAxis
+from helper import market_data
 
 # there doesn't seem to be any way to invert the axes in Plotly, so sort the data instead
-data = helper.market_data().sort_values(by = ["Begin Date"], ascending = False)
+data = market_data().sort_values(by = ["Begin Date"], ascending = False)
 
 def create_figure() -> go.Figure:
     # create a layout with 2 x-axes
@@ -84,10 +84,15 @@ def add_chart_market(fig: go.Figure):
     # create a custom hover message
     fig.data[-1].hovertemplate = "%{y}<br>Begin Value: %{customdata:.2f}<br>End Value: %{x:.2f}"
 
+def create_chart( presidents=True, market=True) -> go.Figure:
+    fig = create_figure()
+    if presidents:
+        add_chart_presidents(fig)
+    if market:
+        add_chart_market(fig)
+    return fig
 
 if __name__ == "__main__":
     # display the finished graph
-    fig = create_figure()
-    add_chart_presidents(fig)
-    add_chart_market(fig)
+    fig = create_chart()
     fig.show()
