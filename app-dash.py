@@ -1,5 +1,5 @@
 from dash import dcc, html, Dash
-import dash.dependencies
+from dash.dependencies import Input, Output
 from plot_presidents import create_chart
 
 app = Dash(__name__)
@@ -25,8 +25,8 @@ app.layout = html.Div(children=[
 
 # do the interaction
 @app.callback(
-    dash.dependencies.Output(component_id='chart1', component_property='figure'),
-    dash.dependencies.Input(component_id='select_plots', component_property='value')
+    Output(component_id='chart1', component_property='figure'),
+    Input(component_id='select_plots', component_property='value')
 )
 
 def update_chart(checked_values):
