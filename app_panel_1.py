@@ -14,7 +14,7 @@ select_market = "Show Market"
 # create a Parameterized class for the plot selection
 class ChartParms (param.Parameterized):
     selection_list  = param.ListSelector(
-        default = [True, True],
+        default = [select_presidents, select_market],
         label = [
             "Show Presidents",
             "Show Market"
@@ -59,4 +59,7 @@ panel = pn.Column(
 )
 
 # serve the panel
-panel.servable( title="Dow Performance")
+def show_panel(panel):
+    panel.show(title="Dow Performance")
+
+show_panel(panel)
