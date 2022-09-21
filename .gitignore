@@ -3,3 +3,5 @@ __pycache__/mainplot.cpython-310.pyc
 .gitignore
 .DS_Store
 __pycache__/plot_presidents.cpython-310.pyc
+__pycache__/app-panel_1.cpython-310.pyc
+__pycache__/app-panel.cpython-310.pyc
