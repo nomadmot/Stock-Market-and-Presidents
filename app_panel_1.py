@@ -57,9 +57,3 @@ panel = pn.Column(
     selection,
     chart
 )
-
-# serve the panel
-def show_panel(panel):
-    panel.show(title="Dow Performance")
-
-show_panel(panel)
