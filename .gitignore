@@ -2,3 +2,4 @@
 .DS_Store
 __pycache__/
 Stock Market and Presidents.code-workspace
+.python-version
