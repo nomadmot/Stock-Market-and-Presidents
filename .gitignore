@@ -4,3 +4,4 @@ __pycache__/
 Stock Market and Presidents.code-workspace
 .python-version
 .venv/
+.vscode/
